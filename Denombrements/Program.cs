@@ -20,7 +20,10 @@ namespace Denombrements
                 Console.Write("Choix :                            ");
                 c = int.Parse(Console.ReadLine());
 
-                if (c == 0) { Environment.Exit(0); }
+                if (c == 0) 
+                { 
+                    Environment.Exit(0);
+                }
 
                 if (c == 1)
                 {
